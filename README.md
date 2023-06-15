@@ -45,3 +45,17 @@ Python is easy, has lots of languages, large community (open source) and languag
 - PyYAML (YAML parser & emitter for Python)
 - pandas (Data science, but useful for automating CSV's)
 - smtplib (STMP)
+
+## Scripting basics
+
+A module is a collection of functions and a library is a collection of modules.
+
+There are 7 core modules / libraries in python:
+
+1. sys - Stands for system and it is for anything to do with the system
+2. os - Operating system -> all to do with files and folders
+3. subprocess -> Lets the current file work with other files
+4. math -> all maths related things
+5. random -> all random related things
+6. datetime -> all to do with dates and times 
+7. json -> used as a translator for APIs
