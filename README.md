@@ -7,13 +7,13 @@ It is the process of writing and executing scripts using python. A script is a s
 Do do this write a series of commands or instructions in a plan text file with a .py extension. They can be executed by the Python interpreter.
 Scripts are always one file. 
 
-## Why is scripting important for DevOps engineers?
+### Why is scripting important for DevOps engineers?
 
 Scripts are used for automating tasks, performing repetitive actions and manipulating data.
 Different to programming which has a wide scope and is used for a lot of things. Scripts are easy to read and less technical. Scripts are specific and not flexable. High level languages.
 Python is easy, has lots of languages, large community (open source) and language interoperability. Automation and configuration.
 
-## Example 
+### Example 
 - Python script to query a database
 - Python script to execute a shell command or script
 - Query logs for alerts
@@ -27,7 +27,7 @@ Python is easy, has lots of languages, large community (open source) and languag
 - Automating CRUD
 - Custom scripts for config management
 
-## Important Python Modules for DevOps
+### Important Python Modules for DevOps
 - os (Interacting with the operating system)
 - platform (Access to underlying platform data)
 - subprocess (Subprocess management)
@@ -46,7 +46,7 @@ Python is easy, has lots of languages, large community (open source) and languag
 - pandas (Data science, but useful for automating CSV's)
 - smtplib (STMP)
 
-## Scripting basics
+### Scripting basics
 
 A module is a collection of functions and a library is a collection of modules.
 
@@ -59,3 +59,19 @@ There are 7 core modules / libraries in python:
 5. random -> all random related things
 6. datetime -> all to do with dates and times 
 7. json -> used as a translator for APIs
+
+## JSON
+
+JavaScript Object Notation. It is a high level, human-readable language. It is used to transport data such as from a repo to an API. It can transport data to different languages and acts as a translater. 
+
+JSON works with key value pairs like dictionaries / objects but it doesnt need a variable name. The extension on json files is .json
+
+Parsing -> turning a string into a data structure and vice versa. Read a JSON file, parse it and send it to python or the other way round.
+
+To remove human error you need to make a script to parse files.
+
+.loads is for when the data is on a local file.
+
+.load is for when data is on a server / website.
+
+It will only work if the JSON file is valid. So you need to make a script to check if the JSON is valid before you send it. An example of this is in check_json.py, it needs to be run in the terminal with the first arg as check_json.py and then the file you want to check.
