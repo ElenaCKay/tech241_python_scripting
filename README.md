@@ -68,10 +68,7 @@ JSON works with key value pairs like dictionaries / objects but it doesnt need a
 
 Parsing -> turning a string into a data structure and vice versa. Read a JSON file, parse it and send it to python or the other way round.
 
-To remove human error you need to make a script to parse files.
+To remove human error you need to make a script to parse files. The json. load() is used to read the JSON document from file and The json. loads() is used to convert the JSON String document into the Python dictionary.
 
-.loads is for when the data is on a local file.
-
-.load is for when data is on a server / website.
 
 It will only work if the JSON file is valid. So you need to make a script to check if the JSON is valid before you send it. An example of this is in check_json.py, it needs to be run in the terminal with the first arg as check_json.py and then the file you want to check.
